@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+    /* POPS */
+.boxpop { font-family: 'itc_avant_garde_gothic_proBk'; font-size:16px; color:#666; background:#fff; border:5px solid #C4D600; -webkit-border-radius: 5px;
+border-radius: 5px; padding:30px 20px 20px}
+.boxpop.pp {border:5px solid #BDA5C5;}
+.boxpop h1 { color:#C4D600; text-transform:uppercase; font-weight:bold; font-size:18px; margin:10px 0 0 0}
+.boxpop p.inc { color:#C4D600}
+.boxpop.pp p.inc { color:#8B409C}
+a#cerrarpop { color:#fff; background:#C4D600; border:2px solid #E2E67F; font-size:30px; text-decoration:none; text-align:center; padding:10px; margin:20px auto; display:block; width:200px   }
+.boxpop.pp a#cerrarpop {background:#8B409C !important; border:2px solid #BDA5C5 !important }
+a#cerrarpop.pp {background:#8B409C !important; border:2px solid #BDA5C5 !important}
+a#cerrarpop.pc {background:#00A22E !important; border:2px solid #7ED096 !important}
+h1.pop { background:#0078BF; color:#fff; -webkit-border-radius: 5px; text-transform:uppercase;
+border-radius: 5px;  font-family: 'itc_avant_garde_gothic_proBk'; font-size:26px; padding:10px 10px 10px 130px}
+.vinpop { position:absolute; top:0; left:0}
+.vinpop img { width:120px}
