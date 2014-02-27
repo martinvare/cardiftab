@@ -3,7 +3,7 @@
 
 
     /* POPS */
-.boxpop { font-family: 'itc_avant_garde_gothic_proBk'; font-size:16px; color:#666; background:#fff; border:5px solid #C4D600; -webkit-border-radius: 5px;
+.boxpop { font-family: 'itc_avant_garde_gothic_proBk'; font-size:18px; color:#666; background:#fff; border:5px solid #C4D600; -webkit-border-radius: 5px;
 border-radius: 5px; padding:30px 20px 20px}
 .boxpop.pp {border:5px solid #BDA5C5;}
 .boxpop h1 { color:#C4D600; text-transform:uppercase; font-weight:bold; font-size:18px; margin:10px 0 0 0}
