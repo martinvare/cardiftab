@@ -12,8 +12,32 @@ border-radius: 5px; padding:30px 20px 20px}
 a#cerrarpop { color:#fff; background:#C4D600; border:2px solid #E2E67F; font-size:30px; text-decoration:none; text-align:center; padding:10px; margin:20px auto; display:block; width:200px   }
 .boxpop.pp a#cerrarpop {background:#8B409C !important; border:2px solid #BDA5C5 !important }
 a#cerrarpop.pp {background:#8B409C !important; border:2px solid #BDA5C5 !important}
-a#cerrarpop.pc {background:#00A22E !important; border:2px solid #7ED096 !important}
+a#cerrarpop.pc {background:#00A22E !important; border:2px solid #7ED096 !important; display:inline-block !important}
+a#cerrarpop.pc.mat { display:inline-block; width:380px; background:#7FD096 !important; border:2px solid #00A22E !important; padding:10px 0px !important; margin-right:320px }
 h1.pop { background:#0078BF; color:#fff; -webkit-border-radius: 5px; text-transform:uppercase;
 border-radius: 5px;  font-family: 'itc_avant_garde_gothic_proBk'; font-size:26px; padding:10px 10px 10px 130px}
 .vinpop { position:absolute; top:0; left:0}
 .vinpop img { width:120px}
+
+h1.mats {display:inline-block; width:400px; background:#7FD096 !important; border:2px solid #00A22E !important; padding:10px; color:#fff; font-size:30px; position:absolute; top:50px; left:450px}
+span.matstit {display:inline-block;  background:#7FD096 !important; border:2px solid #00A22E !important; padding:10px; color:#fff; font-size:30px; position:absolute; top:50px; left:450px}
+ul.materiales { width:320px; float:left}
+ul.materiales li { list-style:none; margin:8px 0}
+ul.materiales li a { font-size:22px; color:#666}
+ul.materiales li a span { font-size:16px}
+ul.materiales li a:hover { color:#00A22E}
+ul.materiales.list { width:480px !important; }
+.matscont {height:500px; overflow:auto;
+font-family: 'itc_avant_garde_gothic_proBk'; font-size:18px; color:#666; line-height:22px}
+
+/*ul.materiales { width:960px; overflow-x:hidden;}
+ul.materiales li { list-style:none; margin:8px 0; width:475px; float:left}
+ul.materiales li a { font-size:22px; color:#666}
+ul.materiales li a span { font-size:16px}
+ul.materiales li a:hover { color:#00A22E}
+ul.materiales.list { width:960px !important; }
+.matscont {height:500px; overflow:auto;
+font-family: 'itc_avant_garde_gothic_proBk'; font-size:18px; color:#666; line-height:22px}
+
+ul.materiales.cols {width:320px !important; float:left !important}
+ul.materiales.cols li { float:none !important; width:inherit !important }*/
