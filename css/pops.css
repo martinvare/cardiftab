@@ -6,6 +6,7 @@
 .boxpop { font-family: 'itc_avant_garde_gothic_proBk'; font-size:18px; color:#666; background:#fff; border:5px solid #C4D600; -webkit-border-radius: 5px;
 border-radius: 5px; padding:30px 20px 20px}
 .boxpop.pp {border:5px solid #BDA5C5;}
+.boxpop.pt {border:5px solid #FCC588;}
 .boxpop h1 { color:#C4D600; text-transform:uppercase; font-weight:bold; font-size:18px; margin:10px 0 0 0}
 .boxpop p.inc { color:#C4D600}
 .boxpop.pp p.inc { color:#8B409C}
@@ -13,6 +14,7 @@ a#cerrarpop { color:#fff; background:#C4D600; border:2px solid #E2E67F; font-siz
 .boxpop.pp a#cerrarpop {background:#8B409C !important; border:2px solid #BDA5C5 !important }
 a#cerrarpop.pp {background:#8B409C !important; border:2px solid #BDA5C5 !important}
 a#cerrarpop.pc {background:#00A22E !important; border:2px solid #7ED096 !important; display:inline-block !important}
+a#cerrarpop.pt {background:#F90 !important; border:2px solid #FCC588 !important}
 a#cerrarpop.pc.mat { display:inline-block; width:380px; background:#7FD096 !important; border:2px solid #00A22E !important; padding:10px 0px !important; margin-right:320px }
 h1.pop { background:#0078BF; color:#fff; -webkit-border-radius: 5px; text-transform:uppercase;
 border-radius: 5px;  font-family: 'itc_avant_garde_gothic_proBk'; font-size:26px; padding:10px 10px 10px 130px}
@@ -41,3 +43,10 @@ font-family: 'itc_avant_garde_gothic_proBk'; font-size:18px; color:#666; line-he
 
 ul.materiales.cols {width:320px !important; float:left !important}
 ul.materiales.cols li { float:none !important; width:inherit !important }*/
+
+.nar { color:#F90}
+
+.pttable { margin:10px 0}
+.pttable td.tit { color:#0078bf !important; font-size:20px; font-weight:bold; background:#fff}
+.pttable td { background:#ededed; border-top:2px solid #fff; border-bottom:2px solid #fff; padding:2px 5px}
+.pttable td:nth-child(even) {color:#F90}

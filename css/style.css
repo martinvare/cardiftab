@@ -54,7 +54,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', end
 #logo { float:right; margin:20px; z-index:999; width:130px; height:102px; display:block; position:relative }
 nav {}
 ul#menu1 {  text-align:center; width:100%; position:absolute; top:170px}
-ul#menu1 li { list-style:none; float:left; margin:0 25px}
+ul#menu1 li { list-style:none; float:left; margin:0 17px}
+ul#menu1 li:last-child { margin-right:0}
 footer { position:relative; bottom:0; width:1280px; margin:0 auto; text-align:center; z-index:999}
 
 #faqs { width:116px; height:146px; display:block; position:absolute; top:20px; left:20px; z-index:999}
@@ -69,6 +70,8 @@ border-radius: 5px; padding:30px 20px 20p; width:960px; margin:0 auto; padding:3
 #boxfaqs.pp h1 {color:#8B409C !important}
 #boxfaqs.pc {border:5px solid #7ED096 !important}
 #boxfaqs.pc h1 {color:#00A22E !important}
+#boxfaqs.pt {border:5px solid #FCC588 !important}
+#boxfaqs.pt h1 {color:#F90 !important}
 
 ul#menuph {  text-align:center; width:100%; position:relative; background:url(../imagenes/ph2b.png) no-repeat 390px 200px; width:1280px; height:700px; display:block; z-index:0 }
 ul#menuph li { list-style:none; float:left; }
@@ -103,6 +106,12 @@ ul#menuph li#pp5 { position:absolute; top:250px; left:810px }
 ul#menuph li#pp5 span { position:absolute; top:10px; left:120px; text-align:left !important }
 
 ul#menuph.pc {  text-align:center; width:100%; position:relative; background:url(../imagenes/pc2.png) no-repeat 390px 200px; width:1280px; height:700px; display:block; z-index:0 }
+
+ul#menuph.pt {  text-align:center; width:100%; position:relative; background:url(../imagenes/pt2.png) no-repeat 390px 200px; width:1280px; height:700px; display:block; z-index:0 }
+ul#menuph li#pt1 { position:absolute; top:120px; left:385px }
+ul#menuph li#pt1 span { position:absolute; top:30px; left:-310px }
+ul#menuph li#pt2 { position:absolute; top:120px; left:690px }
+ul#menuph li#pt2 span { position:absolute; top:10px; left:120px; text-align:left !important }
 
 #cotiz { position:absolute; top:580px; right:60px; z-index:99999}
 
@@ -241,3 +250,11 @@ input[type="text"], textarea, [contenteditable]
         border:none;
         color: rgba(0, 0, 0, 0);
     }
+	
+#planpp.planpt { width:inherit !important}	
+#planpp.planpt table { width:280px; margin:0 5px}
+#planpp.planpt table td { padding:0 5px; font-size:14px}
+#planpp.planpt table td span { font-weight:bold; font-size:16px}
+
+#totalpp.pt { top:200px}
+#totalpp.pt li.num { width:280px; margin:0 5px; font-weight:bold}
