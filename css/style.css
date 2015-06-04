@@ -258,3 +258,11 @@ input[type="text"], textarea, [contenteditable]
 
 #totalpp.pt { top:200px}
 #totalpp.pt li.num { width:280px; margin:0 5px; font-weight:bold}
+
+ul#plan { width:300px; top:145px }
+#plan.pt2 li { text-align:left; padding:2px 10px}
+#plan.pt2 li.precio { text-align:center}
+a#p200.pt2 { left:800px; top:145px}
+
+ul#plan.pt2.planb { width:300px; top:145px; left:700px }
+a#p200.pt2.plana { left:450px; top:145px}
